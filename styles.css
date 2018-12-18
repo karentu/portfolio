@@ -3,11 +3,52 @@ nav {
 }
 
 carousel-control-prev {
-  color: #000000
+  color: #000000;
+}
+
+#section1 {
+  display: flex;
+  align-items: row;
+  justify-content: space-evenly;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#logo {
+  max-width:100px;
+  max-height:90px;
+  width: auto;
+  height: auto;
+}
+
+#about {
+  
+}
+
+#profile-pic {
+  width: 35%;
+  height: 25%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  max-width: 50%;
+  font-weight: 100;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
 }
 
 body {
-      -webkit-animation: fadein 2s;
     background-color: #F9BB2D;
     position: relative;
+}
+
+h1.sectiontitle {
+  font-family: 'Fjalla One', sans-serif;
 }
