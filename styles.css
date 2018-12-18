@@ -47,8 +47,10 @@ p.caption {
   height: auto;
 }
 
-#about {
-
+  #alarm {
+    margin-left: 300px;
+    max-width: 40%;
+    max-height: 600px;
 }
 
 #profile-pic {
