@@ -18,6 +18,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
   integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
+<style>
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
 <body data-spy="scroll" data-target=".navbar" data-offset="50" style= "background-color: #F7DC7B">
 <div id="navigation">
   <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.1)">
@@ -75,10 +80,26 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-inline w-100" src="assets\pillbox.jpg" alt="First slide">
+        <div class="container">
+        <img class="d-inline w-100" src="assets\pillbox.png" alt="First slide" style = "z-index=0;">
+        <a href="pillbox.html">
+          <div class="overlay">
+            <h5>Pillbox</h5>
+            <p class="caption">Pillbox is a interactive web app built with React that helps people sort their medications and stay organized.</p>
+          </div>
+        </a>
+      </div>
       </div>
       <div class="carousel-item">
-        <img class="d-inline w-10 center" src="assets\gallery.jpg" alt="Second slide">
+        <div class="container">
+          <img id= "gaggle" class="d-inline w-100" src="assets\gallery.jpg" alt="Second slide" style = "z-index=0;">
+        <a href="gaggle.html">
+          <div class="overlay">
+            <h5>Gaggle</h5>
+            <p class="caption">Gaggle is a website designed to help people find others studying near them and make new friends!</p>
+          </div>
+        </a>
+      </div>
       </div>
       <div class="carousel-item">
         <img class="d-inline w-100" src="..." alt="Third slide">

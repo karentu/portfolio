@@ -1,0 +1,76 @@
+nav {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 30px;
+  height: 100%;
+  width: 97.5%;
+  opacity: 0.7;
+  transition: .5s ease;
+  background-color: #5C5960;
+  padding: 170px 100px;
+  z-index: 1;
+  color: #FFFFFF;
+}
+
+p.caption {
+  max-width: 100%
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fjalla One', sans-serif;
+  align-items: center;
+}
+
+#logo {
+  max-width:100px;
+  max-height:90px;
+  width: auto;
+  height: auto;
+}
+
+#about {
+
+}
+
+#profile-pic {
+  width: 35%;
+  height: 25%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+button {
+  max-width: 20%
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  max-width: 80%;
+  font-weight: 100;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+body {
+    background-color: #F9BB2D;
+    position: relative;
+}
+
+h1.sectiontitle {
+  font-family: 'Fjalla One', sans-serif;
+}

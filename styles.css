@@ -2,8 +2,35 @@ nav {
   font-family: 'Fjalla One', sans-serif;
 }
 
-carousel-control-prev {
-  color: #000000;
+.overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 30px;
+  height: 100%;
+  width: 97.5%;
+  opacity: 0.7;
+  transition: .5s ease;
+  background-color: #5C5960;
+  padding: 170px 100px;
+  z-index: 1;
+  color: #FFFFFF;
+}
+
+p.caption {
+  max-width: 100%
+}
+
+
+.container {
+  position: relative;
+}
+
+#gaggle {
+  max-height: 600px;
 }
 
 #section1 {
@@ -21,7 +48,7 @@ carousel-control-prev {
 }
 
 #about {
-  
+
 }
 
 #profile-pic {
