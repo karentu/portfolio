@@ -1,1 +1,9 @@
+nav {
+  font-family: 'Fjalla One', sans-serif;
+}
 
+body {
+      -webkit-animation: fadein 2s;
+    background-color: #F9BB2D;
+    position: relative;
+}
