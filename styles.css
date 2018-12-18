@@ -2,6 +2,10 @@ nav {
   font-family: 'Fjalla One', sans-serif;
 }
 
+carousel-control-prev {
+  color: #000000
+}
+
 body {
       -webkit-animation: fadein 2s;
     background-color: #F9BB2D;
