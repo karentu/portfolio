@@ -2,56 +2,51 @@ nav {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.overlay {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 15px;
-  right: 30px;
-  height: 100%;
-  width: 97.5%;
-  opacity: 0.7;
-  transition: .5s ease;
-  background-color: #5C5960;
-  padding: 170px 100px;
-  z-index: 1;
-  color: #FFFFFF;
+#logo {
+  max-width:100px;
+  max-height:90px;
+  width: 70%;
+  height: auto;
 }
 
-p.caption {
-  max-width: 100%
-}
-
-
-.container {
-  position: relative;
-}
-
-#gaggle {
-  max-height: 600px;
+.sectiontitle {
+  font-family: 'Fjalla One', sans-serif;
 }
 
 #section1 {
   display: flex;
   align-items: row;
+  width: 100%;
   justify-content: space-evenly;
   font-family: 'Fjalla One', sans-serif;
 }
 
-#logo {
-  max-width:100px;
-  max-height:90px;
-  width: auto;
-  height: auto;
+#wrapper1 {
+  background-color: #FFD477;
+  height: 100%
 }
 
-  #alarm {
-    margin-left: 50px;
-    max-width: 80%;
-    max-height: 500px;
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  margin-left: 25%;
 }
+
+#description {
+  font-family: 'Roboto', sans-serif;
+  max-width: 50%;
+  font-weight: 100;
+  margin-left: 30%;
+  padding-top: 20px;
+}
+
+#wrapper2 {
+  background-color: #9ECFF7;
+}
+
+#wrapper3 {
+  background-color: #F9AE95;
+}
+
 
 #profile-pic {
   width: 35%;
@@ -60,24 +55,84 @@ p.caption {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h3 {
-  font-family: 'Fjalla One', sans-serif;
+#project-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-p {
+.project {
+  position: relative;
+  max-width: 27%;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.project-img {
+  display: block;
+  min-width: 100px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.project-title {
   font-family: 'Roboto', sans-serif;
-  max-width: 50%;
-  font-weight: 100;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
 }
 
-body {
-    background-color: #F9BB2D;
-    position: relative;
+.project-desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
 }
 
-h1.sectiontitle {
-  font-family: 'Fjalla One', sans-serif;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #6A7790;
+}
+
+.project:hover .overlay {
+  opacity: .85;
+}
+
+footer {
+   background-color: #2B607C;
+   color: #C0CFD7;
+   padding: 15px;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+}
+
+#contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+a:link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100px;
+  color: lightgray;
+}
+.skills-wrapper {
+  padding : 10px;
 }
