@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Karen Tu</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="projectpage.css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style= "background-color: #F7DC7B">
+<div id="navigation">
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.1)">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img id="logo" src="assets\icon.png" alt="Karen">
+        </a>
+      </li>
+    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#origNavBar"
+    aria-controls="origNavBar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id = "origNavBar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">AB Testing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">User Testing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Takeaways</a>
+        </li>
+      </ul>
+  </nav>
+</div>
+
+<div id="section1" class="container" style="padding-top:140px;padding-bottom:70px">
+  <h1 class="sectiontitile">A/B Testing</h1>
+  <img src="assets\ABTesting.jpg" alt="AB Testing" style ="max-width: 50%; padding:10px; margin-bottom: 30px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <h4>
+    “A picture says a thousand words”, but is that too many?
+  </h4>
+  <p>
+    “A picture says a thousand words”, but is that too many? I used AB and User testing
+    to examine the possibility that a bad picture is worse than no picture at all.
+    I created two versions of the same generic taxi website. Version A contains the exact
+    same content as Version B, except without the vague (bad) taxi pictures. Fundamentally,
+    the testing asks a question about user priorities: do people care more
+    about the visual presentation of a page or the quality of the content?
+  </p>
+  <div id="ABTesting-img">
+    <img src="assets\A.png" alt="AB Testing" style ="width: 40%; height: 40%; padding:10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+    <img src="assets\B.png" alt="AB Testing" style ="width: 40%; height: 40%; padding:10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  </div>
+  <a role="button" href="https://safe-shelf-75338.herokuapp.com" class="btn btn-success">View the website!</a>
+  <p>
+      I surveyed 54 of my classmates and obstained the following statistics when tracking the following for statistics: dwell time, click-through rate, return rate, and time to click.
+  </p>
+  <img src="assets\datatable.png" alt="AB Testing" style ="width: 60%; padding:10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <p>
+    The statistical tests were inconclusive and found no significant difference between website version and B.
+  </p>
+</div>
+<div id="section2" class="container" style="padding-top:70px;padding-bottom:70px">
+  <h1 class="sectiontitle">User Testing</h1>
+  <img src="assets\mobileusertesting.png" alt="AB Testing" style ="width: 30%; padding:10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <p>
+    Following the AB Testing, I wanted to figure out what kind of information was most
+    important to users. <br><br>
+    Hypothesis: Users’ are primarily concerned about price when booking a cab;
+    all other factors that influence the choice of a cab are secondary to that primary concern. <br><br>
+    I designed the mobile prototype with this hypothesis in mind and ordered the filtering
+    of the different taxi companies accordingly.
+  </p>
+  <a role="button" href="https://www.figma.com/proto/EcEFVlwiQoG81yGTX7z4eJmt/User-Testing?node-id=0%3A1&scaling=scale-down&redirected=1" class="btn btn-success">See the prototype!</a>
+</div>
+<div id="section3" class="container" style="padding-top:70px;padding-bottom:70px">
+  <h1 class="sectiontitle">Tools</h1>
+  <p>
+    I used HTML and CSS to create the A and B versions of the web page hosted on
+    HerokuApp for the primary expirement. Then, I used Figma to mock up a mobile
+     app as a follow up confirmation experiment through user testing on UserTesting.com.<br><br>
+
+  </p>
+</div>
+<div id="section3" class="container" style="padding-top:70px;padding-bottom:70px">
+  <h1 class="sectiontitle">Takeaways</h1>
+  <p>
+    Although both User Testing and AB Testing required me to evaluate a hypothesis of some
+    kind, User Testing allowed for much more open-ended responses, revealing considerations
+    that I hadn’t considered before. On the other hand, A/B Testing provides a much more
+    rigorous standard of proof that can distinguish effectively the subconscious effects of two
+    relatively similar designs.<br><br>
+    In future designs, it may be helpful to employ User Testing in order to do more exploratory
+    hypothesis testing and use A/B Testing to gain design specificity after the general direction of the
+    design has been determined by User Testing.
+  </p>
+  <a role="button" href="assets/ABTestingReport.pdf" class="btn btn-success">Read the full report!</a>
+</div>
+</body>
+</html>

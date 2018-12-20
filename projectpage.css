@@ -74,3 +74,10 @@ body {
 h1.sectiontitle {
   font-family: 'Fjalla One', sans-serif;
 }
+
+#ABTesting-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
