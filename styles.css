@@ -11,6 +11,7 @@ nav {
 
 .sectiontitle {
   font-family: 'Fjalla One', sans-serif;
+  margin-left: 10%;
 }
 
 #section1 {
@@ -22,33 +23,37 @@ nav {
 }
 
 #wrapper1 {
-  background-color: #FFD477;
+  background-color: #000000;
+  color: #FFD477;
   height: 100%
 }
 
 h3 {
   font-family: 'Fjalla One', sans-serif;
-  margin-left: 25%;
+  margin-left: 15%;
 }
 
 #description {
   font-family: 'Roboto', sans-serif;
-  max-width: 50%;
+  max-width: 60%;
   font-weight: 100;
-  margin-left: 30%;
+  margin-left: 20%;
   padding-top: 20px;
 }
 
 #wrapper2 {
-  background-color: #9ECFF7;
+  background-color: #9ECFF7 ;
 }
 
 #wrapper3 {
-  background-color: #F9AE95;
+  background-color: #698E5B;
+  /* #BC4E38 */
+  /* F9AE95; */
 }
 
 
 #profile-pic {
+  margin-right: 5%;
   width: 35%;
   height: 25%;
   border-radius: 50%;
@@ -85,15 +90,20 @@ h3 {
   font-weight: 400;
   font-size: 24px;
   color: white;
+  text-align: center;
 }
 
 .project-desc {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: white;
+    text-align: center;
 }
 
 .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -107,7 +117,24 @@ h3 {
 }
 
 .project:hover .overlay {
-  opacity: .85;
+  opacity: .95;
+}
+
+label {
+  display:block;
+  text-align:center;
+}
+
+
+a:link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100px;
+  color: lightgray;
+}
+
+.skills-wrapper {
+  color: white;
+  padding : 10px;
 }
 
 footer {
@@ -126,13 +153,4 @@ footer {
   padding-right: 20%;
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-a:link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100px;
-  color: lightgray;
-}
-.skills-wrapper {
-  padding : 10px;
 }
